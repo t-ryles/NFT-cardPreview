@@ -1,0 +1,84 @@
+.debug {
+	border: 1px solid red;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+h2 {
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+.screen {
+	background-color: gray;
+	margin: auto;
+	width: 375px;
+	height: 600px;
+}
+
+.container {
+	background-color: yellow;
+	margin: auto;
+	width: 300px;
+	border-radius: 10px;
+	margin-top: 15%;
+}
+
+.content {
+	margin-top: 8%;
+	padding: 0px 25px;
+	padding-bottom: 25px;
+}
+
+.nftImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: 250px;
+	border-radius: 10px;
+}
+
+.infoSec {
+	display: flex;
+	justify-content: space-between;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid #8c8c8c;
+}
+
+.profileImg {
+	height: auto;
+	width: 50px;
+}
+
+h3 {
+	display: inline-block;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.profileImg {
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.author {
+	width: auto;
+	height: auto;
+}
+
+footer {
+	display: flex;
+}
