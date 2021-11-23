@@ -1,3 +1,7 @@
+.debug {
+	border: 1px red solid;
+}
+
 h2,
 h3 {
 	font-family: 'Outfit', sans-serif;
@@ -6,15 +10,6 @@ h3 {
 p {
 	font-family: 'Urbanist', sans-serif;
 	font-size: 15px;
-}
-
-.attribution {
-	font-size: 11px;
-	text-align: center;
-}
-
-.attribution a {
-	color: hsl(228, 45%, 44%);
 }
 
 h2 {
@@ -51,13 +46,46 @@ h2 {
 	padding-bottom: 15px;
 }
 
-.nftImage {
+.nftImage,
+.nftImageSec {
+	position: relative;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: auto;
 	height: 250px;
 	border-radius: 10px;
+}
+
+.eyeIcon {
+	position: absolute;
+	top: 42%;
+	left: 41%;
+	transition: .6s ease;
+}
+
+.overLay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .3s ease;
+	background: rgba(0, 166, 190, 0.5);
+	border-radius: 10px;
+}
+
+.nftImageSec:hover .overLay {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.nftImageSec:hover .eyeIcon {
+	z-index: 1;
+	cursor: pointer;
 }
 
 .infoSec {
@@ -76,7 +104,7 @@ h2 {
 	color: #91add6;
 }
 
-svg {
+.svgInfoSec {
 	padding-right: 5px;
 }
 
@@ -93,6 +121,12 @@ hr {
 
 #creatorName {
 	color: white;
+}
+
+#creatorName:hover,
+#nftName:hover {
+	color: #28f0ee;
+	cursor: pointer;
 }
 
 h3 {
@@ -123,4 +157,13 @@ h3 {
 
 footer {
 	display: flex;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }
