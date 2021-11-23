@@ -42,11 +42,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/t-ryles/NFT-cardPreview
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
+  I started with the structure of the HTML, getting all the pieces in the right location, for there I began working on the CSS, and then adding the effects.
 ### Built with
 
 - Semantic HTML5 markup
@@ -54,11 +54,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
