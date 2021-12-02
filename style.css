@@ -2,6 +2,10 @@
 	border: 1px red solid;
 }
 
+body {
+	background-color: #0d1a2d;
+}
+
 h2,
 h3 {
 	font-family: 'Outfit', sans-serif;
@@ -25,7 +29,7 @@ h2 {
 }
 
 .screen {
-	background-color: white;
+	background-color: #0d1a2d;
 	margin: auto;
 	width: 375px;
 	height: 600px;
